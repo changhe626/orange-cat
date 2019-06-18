@@ -1,0 +1,4 @@
+#学生的,#开头的是注释,忽略
+student=com.onyx.rpc.orange.cat.service.impl.StudentServiceImpl
+#老师的
+teacher=com.onyx.rpc.orange.cat.service.impl.TeacherServiceImpl
