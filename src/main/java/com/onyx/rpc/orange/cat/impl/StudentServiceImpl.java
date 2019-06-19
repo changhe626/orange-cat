@@ -1,6 +1,6 @@
-package com.onyx.rpc.orange.cat.service.impl;
+package com.onyx.rpc.orange.cat.impl;
 
-import com.onyx.rpc.orange.cat.service.UserService;
+import com.onyx.rpc.orange.cat.api.UserService;
 
 /**
  * @author zk

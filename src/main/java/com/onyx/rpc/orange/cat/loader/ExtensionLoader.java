@@ -229,6 +229,7 @@ public class ExtensionLoader<T> {
                                         line = StringUtils.trim(line.substring(i + 1));
                                     }
                                     if (line.length() > 0) {
+                                        //加载类，并通过 loadClass 方法对类进行缓存
                                         Class<?> instance = Class.forName(line, true, classLoader);
                                         if (!clazz.isAssignableFrom(instance)) {
                                             throw new IllegalStateException("实例化" + line + "发生错误");

@@ -1,4 +1,4 @@
-package com.onyx.rpc.orange.cat.service;
+package com.onyx.rpc.orange.cat.api;
 
 import com.onyx.rpc.orange.cat.annotation.SPI;
 

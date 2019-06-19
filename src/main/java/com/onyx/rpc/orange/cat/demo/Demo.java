@@ -1,7 +1,7 @@
 package com.onyx.rpc.orange.cat.demo;
 
 import com.onyx.rpc.orange.cat.loader.ExtensionLoader;
-import com.onyx.rpc.orange.cat.service.UserService;
+import com.onyx.rpc.orange.cat.api.UserService;
 
 import java.util.Optional;
 
